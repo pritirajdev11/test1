@@ -1,1 +1,30 @@
-hii
+package project;
+
+public class Sumpair {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[]= {-40,-5,1,3,6,7,8,20};
+		int sum = 15;
+		
+		int low = 0;
+		int high = arr.length - 1;
+		while(low < high) {
+			if(arr[low] + arr[high]> sum)
+			{
+				high--;
+			}
+			else if(arr[low]+arr[high]<sum)
+			{
+				low++;
+			}
+			else if((arr[low]+arr[high]) == sum) {
+				System.out.println(" Pair of elements whose sum is equal to 15: (" + arr[low] + " , " + arr[high] + " )");
+				low++;
+				high--;
+			}
+		}
+
+	}
+
+}
