@@ -19,6 +19,6 @@ public class LongestCommonSequence {
 	    public static void main(String[] args) {
 	        String s1 = "abcdefghik";
 	        String s2 = "aecfghikcs";
-	        System.out.println("Longest Common subString is:"+findLongestCommonSequence(s1, s2)); // "cfghik"
+	        System.out.println("Longest Common subString is:"+findLongestCommonSequence(s1, s2));
 	    }
 	}
