@@ -3,7 +3,6 @@ package project;
 public class Sumpair {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int arr[]= {-40,-5,1,3,6,7,8,20};
 		int sum = 15;
 		
